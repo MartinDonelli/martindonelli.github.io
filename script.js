@@ -1,12 +1,12 @@
-let menuVisible = true;
+let menuVisible = false;
 //Función que oculta o muestra el menu
 function mostrarOcultarMenu(){
     if(menuVisible){
         document.getElementById("nav").classList ="";
-        menuVisible = true;
+        menuVisible = false;
     }else{
         document.getElementById("nav").classList ="responsive";
-        menuVisible = false;
+        menuVisible = true;
     }
 }
 
